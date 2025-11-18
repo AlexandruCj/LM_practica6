@@ -1,0 +1,150 @@
+/* ====== Estilos base ====== */
+body {
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f8;
+  color: #222;
+}
+
+/* ====== Cabecera ====== */
+header {
+  background-color: #0d3b66;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+header img {
+  height: 120px; /*-- PABC - sol8 */
+  vertical-align: middle;
+}
+
+header h1 {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 2.8em; /*-- PABC - sol4 */
+  color: orange;
+}
+header h3 { 
+  color:lightgray;
+}
+
+/* ====== Navegación ====== */
+nav {
+  background-color: #145da0;
+  text-align: center;
+  padding: 8px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 1.7em; /* PABC - sol3 */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+nav a:hover {
+  background-color: #ffeab8; /* PABC - sol7 */
+  color: #0d3b66;
+}
+
+/* ====== Contenido principal ====== */
+main {
+  width: 90%;
+  max-width: 1100px;
+  margin: 20px auto;
+}
+
+/* ====== Secciones ====== */
+section {
+  background-color: white;
+  margin-bottom: 25px;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+#sec2{
+  color: #74750D; /* PABC - sol10 */
+}
+#sec4{
+  color: #74750D; /* PABC - sol10 */
+}
+section header h2 { 
+  color: white; /*-- PABC - sol1 */
+  margin-bottom: 5px;
+}
+
+section header h3 { 
+  color: lightgray; /*-- PABC - sol2 */
+  font-weight: normal;
+  margin-top: 0;
+}
+
+/* ====== Artículos ====== */
+article {
+  margin-top: 20px;
+  border-top: 2px solid #e0e0e0;
+  padding-top: 15px;
+}
+
+article h3 {
+  color: #145da0;
+  margin-bottom: 10px;
+}
+
+article img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 6px;
+  display: block;
+  margin: 10px auto;
+-webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+-moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1); /*-- PABC - sol6 */
+}
+article figure{
+  max-width: 540px; /*-- PABC - sol5 */
+  padding: 20px; /*-- PABC - sol5 */
+  background-color: lightblue; /*-- PABC - sol5 */
+  border-radius: 30px; /*-- PABC - sol5 */
+}
+
+article p {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+/* ====== Pie de página ====== */
+footer {
+  background-color: #0d3b66;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* ====== Extras ====== */
+em {
+  color: #9083d9; /*-- PABC - sol9 */
+}
+
+strong {
+  color: #ff6b35;
+}
